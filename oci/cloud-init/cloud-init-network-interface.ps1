@@ -1,5 +1,8 @@
 #ps1_sysnative
 
+#This script is usefull when you have a gateway other than default oci subnet (the first usable ip) and want to provide the configuration at boot machine.
+#Don't forget to put the same ip address at Network options when deploying the VM 
+
 #Change the values:
 
 $MACHINE_IP='192.168.0.10'
